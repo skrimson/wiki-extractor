@@ -91,3 +91,9 @@ ENV/
 
 # Editor files
 *.idea
+
+# Datas
+wiki*/
+
+# Database
+enwiki
