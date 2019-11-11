@@ -29,6 +29,16 @@ The script may be invoked directly, however it can be installed by doing:
     (sudo) python setup.py install
 
 ## Usage
+### Category Extract
+Use the command below
+
+    python category.py {category_name}
+### XML Parse (Wiki Extractor)
+Sample command
+
+    python WikiExtractor.py -b 1000K -o {output_file} --filter_category {category_list_file} {input_xml_file e.g: jawiki-20191020-pages-articles-multistream.xml}
+
+--Usage of Wiki Extractor below--
 The script is invoked with a Wikipedia dump file as an argument.
 The output is stored in several files of similar size in a given directory.
 Each file will contains several documents in this [document format](http://medialab.di.unipi.it/wiki/Document_Format).
